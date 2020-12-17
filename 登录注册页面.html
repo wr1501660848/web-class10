@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>登录注册</title>
+		<style>
+			* {margin: 0; padding: 0;}
+			.dowebok {
+            border: 1px solid;
+			width: 400px;
+			height: 260px;
+            margin: 200px auto;
+			background-color  :#f3f3f3;
+			}
+			.logo {
+				width: 50px;
+				height: 50px;
+			}
+			.form-itme {
+				width: 260px;
+				margin: 0 auto;
+				padding: 10px;
+				position: relative;
+			}
+			.form-itme input {
+				width: 200px;
+				height: 40px;
+				border: 1px solid #FF4400;
+				font-size: 18px;
+				outline: none;
+				padding-left: 60px; 
+			}
+			.form-itme button{
+				width: 264px;
+				height: 50px;
+				font-size: 18px;
+				background-color: #FF4400;
+				color: ghostwhite;
+				margin: 0 auto;
+			}
+			#username {
+				background: url(../images/a.png) 0 0 no-repeat;
+				background-color: #FFFFFF;
+			}
+			#password {
+				background: url(../images/b.png) 0 0 no-repeat ;
+				background-color: #FFFFFF;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="dowebok">
+			<div class="logo"></div>
+			<div class="form-itme">
+				<input type="text" id="username" placeholder="会员名/邮箱/手机号">
+			</div>
+			<div class="form-itme">
+				<input type="password" id="password" placeholder="请输入登录密码">
+			</div>
+			<div class="form-itme"><button id="submit">登录</button></div>
+		</div>
+	</body>
+</html>
